@@ -2,6 +2,11 @@ dist*
 .cabal-sandbox
 cabal.sandbox.config
 gen_test
-*.nix
 .stack-work
 *.DS_Store
+##
+## nixos related
+##
+.pre-commit-config.yaml
+.cabal
+.direnv
